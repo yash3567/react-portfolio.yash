@@ -41,7 +41,7 @@ export const PROJECTS = [
     image: project9,
     description:
       "CollabHub is a dynamic platform where entrepreneurs connect, collaborate, and innovate together. Discover like-minded partners, share ideas, and build successful ventures with ease.",
-    technologies: ["HTML", "CSS", "React", "Express", "NodeJs"],
+    technologies: ["HTML", "CSS", "MongoDB", "Express", "React", "NodeJs"],
   },
 ];
 
