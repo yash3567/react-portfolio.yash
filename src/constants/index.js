@@ -1,7 +1,3 @@
-import project5 from "../assets/projects/project-5.jpeg";
-import project6 from "../assets/projects/project-6.jpg";
-import project7 from "../assets/projects/project-7.jpeg";
-import project8 from "../assets/projects/project-8.jpeg";
 import project9 from "../assets/projects/project-9.jpeg";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
@@ -38,34 +34,8 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
-  {
-    title: "Apple-Clone Website",
-    image: project5,
-    description:
-      "A fully functional Apple clone website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "JavaScript"],
-  },
-  {
-    title: "Space. Website",
-    image: project6,
-    description:
-      "Discover the wonders of the cosmos with our space website, featuring breathtaking images, in-depth articles, and interactive simulations.",
-    technologies: ["HTML", "CSS", "Bootstrap"],
-  },
-  {
-    title: "Portfolio Website",
-    image: project7,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Tailwind", "NodeJs"],
-  },
-  {
-    title: "Travel Website",
-    image: project8,
-    description:
-      "Explore the world with our travel website, offering destination guides, travel tips, and exclusive deals. Plan your perfect getaway with expert advice and stunning visuals from top vacation spots.",
-    technologies: ["HTML", "CSS", "JavaScript"],
-  },
+
+
   {
     title: "Collab-Hub",
     image: project9,
