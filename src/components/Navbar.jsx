@@ -2,7 +2,7 @@ import logo from "../assets/logo.png";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
-import { FaInstagram } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si"; // Importing LeetCode icon
 
 const Navbar = () => {
     return (
@@ -18,11 +18,11 @@ const Navbar = () => {
                     <a href="https://github.com/yash3567" target="_blank" rel="noopener noreferrer">
                         <FaGithub />
                     </a>
+                    <a href="https://leetcode.com/u/yash106/" target="_blank" rel="noopener noreferrer"> {/* Updated LeetCode link */}
+                        <SiLeetcode />
+                    </a>
                     <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
                         <FaSquareXTwitter />
-                    </a>
-                    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-                        <FaInstagram />
                     </a>
                 </div>
             </nav>
